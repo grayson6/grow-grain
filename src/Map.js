@@ -19,7 +19,7 @@ const Map = ({ coordinates }) => {
         center={coordinates || defaultCenter}
         zoom={12}
       >
-        {/* Additional map components can be added here */}
+        
       </GoogleMap>
     </LoadScript>
   );
